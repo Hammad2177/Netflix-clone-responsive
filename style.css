@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/Img/bg.jpg);
+    height: 80vh;
+    background-size: max(1700px, 100vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.main .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+    opacity: .6;
+}
+
+nav {
+    top: 0;
+    max-width: 60vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav img {
+    width: 180px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #be1b23;
+}
+
+.si {
+    font-size: 18px;
+}
+
+.text {
+    position: relative;
+    top: 50px;
+    gap: 23px;
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 23px;
+}
+
+.text>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text>:nth-child(3) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div>input {
+    background-color: rgb(3, 3, 3);
+    padding: 15px 150px 15px 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-weight: 500;
+    opacity: .6;
+    border: 1px solid white;
+    line-height: 1.5;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    top: 30px;
+}
+
+.gs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 8px 40px;
+    color: #C11119;
+    color: white;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(59, 58, 58);
+
+}
+
+.first {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.first .img {
+    position: relative;
+}
+
+.first img {
+    position: relative;
+    z-index: 11;
+}
+
+.first video {
+    width: 405px;
+    position: absolute;
+    top: 80px;
+    right: 75px;
+}
+
+.tvtext {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+.tvtext>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.tvtext>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.line2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* .img>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid white;
+    z-index: 11;
+    position: relative;
+    bottom: 130px;
+    left: 125px;
+    width: 25%;
+    background-color: black;
+}
+
+.boxshot {
+    height: 80px;
+    margin: 10px;
+}
+
+.download-icon {
+    width: 10px;
+    height: 40px;
+}
+.p{
+    font-size: 12px;
+}
+.p2 {
+    color: blue;
+    font-size: 12px;
+} */
+
+.faq {
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faqbox {
+    background-color: rgb(42, 39, 39);
+    padding: 30px;
+    width: 70vw;
+    margin: 10px auto;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqbox:hover {
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+}
+
+.line3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.line4 {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.footer {
+    color: rgb(183, 183, 183);
+    display: flex;
+    text-decoration: underline;
+    margin: 0px auto;
+    max-width: 73vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footeritem {
+    color: rgb(186, 185, 185);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 73vw;
+    font-size: 18px;
+    padding: 25px;
+    padding-bottom: 0px;
+    text-decoration: underline;
+}
+
+.footeritem div {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.eng {
+    background-color: rgb(10, 10, 10);
+    opacity: 0.9;
+}
+
+select {
+    margin: 10px 240px;
+    padding: 5px 13px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(33, 30, 30);
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.last {
+    color: rgb(171, 168, 168);
+    font-size: 18px;
+    margin: 15px auto;
+    max-width: 73vw;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:1470px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .footeritem {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tvtext {
+        text-align: center;
+    }
+
+    .first img {
+        width: 400px;
+    }
+
+    .first video {
+        width: 300px;
+        position: absolute;
+        top: 60px;
+        right: 45px;
+    }
+
+    .text>:nth-child(1) {
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .text>:nth-child(2) {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .text>:nth-child(3) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .tvtext>:nth-child(1) {
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .tvtext>:nth-child(2) {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .one {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    div>input {
+        padding: 15px 100px 15px 10px;
+    }
+
+    .gs {
+        padding: 8px 20px;
+    }
+
+    .si {
+        font-size: 15px;
+    }
+
+    nav img {
+        width: 120px;
+        position: relative;
+        z-index: 10;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+}
